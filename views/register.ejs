@@ -1,0 +1,29 @@
+<h2>Registration</h2>
+<form action="/register" method="post">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required>
+    </div><br>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    </div><br>
+    <div class="password1">
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" required>
+    </div><br>
+    <button type="submit">Register</button>
+</form>
+<a href="/login">login</a>
+
+<style>
+    body{
+        text-align: center;
+        background-color: springgreen;
+        margin-top: 122px;
+    }
+    .password1{
+        margin-left: -21px;
+    }
+
+</style>
